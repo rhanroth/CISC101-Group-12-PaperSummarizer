@@ -1,0 +1,6 @@
+Module 1: Intake & Setup
+
+* Normalize section names (e.g., "Intro" → "Introduction").
+* Detect missing or duplicate sections.
+* Validate user inputs (paper, sections, summary length, summary type).
+* Pre-check for empty or very short sections.
