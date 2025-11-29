@@ -1,0 +1,9 @@
+Module 5: Citation Extractor
+
+* Detect inline citations (e.g., "(Smith, 2020)").
+* Extract metadata:
+  * Author(s)
+  * Year
+  * Title
+  * Source
+* Present citations in structured list.
