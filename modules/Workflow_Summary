@@ -1,0 +1,9 @@
+Workflow Summary
+
+1. **Intake** → Validate inputs.
+2. **Section Loop** → Summarize each section.
+3. **Guardrails** → Apply checks.
+4. **Rendering** → Build unified outputs.
+5. **Citation Extraction** → Collect metadata.
+6. **Key Contributions** → Highlight innovations.
+7. **Final Output** → Paper Summary, Section Table, Expert/Lay Summaries, Glossary, Warnings.
