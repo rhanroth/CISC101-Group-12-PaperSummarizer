@@ -1,6 +1,27 @@
+Change Log(2025-11-29):
+- Added ouput statements to the missing/empty sections guardrail
+- Added new strict evidence mode guardrail
+
 Module 3: Guardrails
 
-* **Missing/Empty Sections** → Flag in warnings.
-* **Short Sections (<50 words)** → Flag as insufficient.
+* **Missing/Empty Sections** → Flag in warnings and state “Section skipped: no usable text was provided.”
+  
+* **Short Sections (<50 words)** → Flag as insufficient and state “Section very short: summary may be incomplete.”
+  
 * **Hallucination Mitigation** → Summarize only provided text.
+  
 * **Long-Paper Chunking** → Break into manageable segments before summarization.
+  
+* **Strict Evidence Mode**
+  
+  * **Variable:** `evidence_mode`
+    
+  * **Option:** `evidence_mode = "strict"`
+    
+  * Behavior:
+    
+    * Only include claims, equations, and results explicitly present in the source text.
+      
+    * If insufficient detail is found, output:
+      
+      * “The source text does not provide enough detail to summarize this section in strict evidence mode.”
