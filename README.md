@@ -1,1 +1,1 @@
-System prompt and reference files for the CISC 101 paper summarizer project. 
+Files for the CISC 101 paper summarizer assignment. The system prompt file contains the main instructions to have an LLM run the system. The module files are the individual modules of the reference file that provides the rules the LLM will follow to execute the system.  
