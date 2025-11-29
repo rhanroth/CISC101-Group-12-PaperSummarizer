@@ -1,8 +1,23 @@
+Change Log(2025-11-29):
+Replaced the summarize in less than 60 words rule with a new summary level rule. 
+
 Module 2: Section Loop
 
 For each section:
 
 1. Extract text.
-2. Summarize within ≤60 words.
+2. **Check** `summary_level` **mode**:
+  * **Variable:** `summary_level`
+    
+  * **Options:**
+    
+    * `summary_level = "short"` → Generate a compact summary (1–2 sentences).
+      
+    * `summary_level = "detailed"` → Generate:
+      
+      * A short paragraph summary.
+        
+      * A bullet list of 3–5 key points.
+        
 3. Ensure clarity and relevance.
 4. Store in structured table format.
