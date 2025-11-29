@@ -1,1 +1,1 @@
-# CISC101-Group-12-PaperSummarizer
+System prompt and reference files for the CISC 101 paper summarizer project. 
